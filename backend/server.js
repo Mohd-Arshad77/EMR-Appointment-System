@@ -11,11 +11,17 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:5174'],
+    origin: [
+        'http://localhost:5173',
+        'http://localhost:5174',
+        'https://emr-appointment-system-delta.vercel.app'
+    ],
     credentials: true
 }));
+
 app.use(express.json());
 app.use(cookieParser());
+
 
 import authRoutes from './routes/authRoutes.js';
 import doctorRoutes from './routes/doctorRoutes.js';
