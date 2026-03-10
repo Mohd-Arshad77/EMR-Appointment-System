@@ -2,6 +2,13 @@
 
 A full-stack EMR (Electronic Medical Records) Appointment Management System built with the MERN stack (MongoDB, Express, React, Node.js).
 
+## 🌐 Live Demo
+
+| Service  | URL                                                                 |
+|----------|---------------------------------------------------------------------|
+| Frontend | [emr-appointment-system-delta.vercel.app](https://emr-appointment-system-delta.vercel.app) |
+| Backend  | [emr-backend-iorx.onrender.com](https://emr-backend-iorx.onrender.com)                   |
+
 ## Features
 
 - **Authentication** — JWT access tokens (15min) + refresh tokens (7-day httpOnly cookie), bcrypt password hashing
